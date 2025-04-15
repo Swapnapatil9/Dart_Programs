@@ -4,6 +4,9 @@
 // 5. write a dart program to check whether a character is a vowel or consonant
 
 String printName(String name){
+  for(int i=1;i<=10;i++){
+    print('$i. My name is $name');
+  }
   return name;
 }
 
@@ -41,15 +44,13 @@ void checkVowelConsonant(){
 
 void main(){
 
-  String myName = printName('Swapna');
-  for(int i=1;i<=10;i++){
-    print('$i. My name is $myName');
-  }
-
+  // String myName = printName('Swapna');
+  // for(int i=1;i<=10;i++){
+  //   print('$i. My name is $myName');
+  // }
+  printName("swapna");
   tableOfFive();
-
   notPrintFiftyFive();
-
   checkVowelConsonant();
 
 }
